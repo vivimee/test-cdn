@@ -19,10 +19,7 @@ export default {
     optimization: {
         runtimeChunk: {
             name: 'runtime',
-        },
-        splitChunks: {
-            chunks: 'all',
-        },
+        }
     },
     plugins: [
         new WebpackProgressPlugin(),
