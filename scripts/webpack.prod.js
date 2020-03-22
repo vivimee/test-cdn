@@ -9,7 +9,7 @@ const config = merge(webpackConfig, {
   output: {
     filename: "js/[name].min.[hash].js",
     chunkFilename: "js/[name].min.[chunkhash].js",
-    publicPath: "https://cdn.jsdelivr.net/gh/vivimee/test-cdn@master/dist/"
+    publicPath: "https://cdn.jsdelivr.net/gh/vivimee/test-cdn/dist/"
   },
   mode: "production",
   optimization: {
