@@ -11,7 +11,7 @@ const store = createStore(reducers);
 
 export default () => (
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/test-cdn">
       <AppContainer>
         {createRoutes()}
       </AppContainer>

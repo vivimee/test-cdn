@@ -11,6 +11,7 @@ export default {
     output: {
         filename: "js/[name].js",
         path: path.resolve(PROJECT_ROOT, "dist"),
+        publicPath: '/'
     },
     resolve: {
         extensions: ['.js', '.jsx', '.*'],
