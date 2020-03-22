@@ -8,7 +8,8 @@ import webpackConfig from "./webpack.config";
 const config = merge(webpackConfig, {
   output: {
     filename: "js/[name].min.[hash].js",
-    chunkFilename: "js/[name].min.[chunkhash].js"
+    chunkFilename: "js/[name].min.[chunkhash].js",
+    publicPath: "https://cdn.jsdelivr.net/gh/vivimee/test-cdn@master/dist/"
   },
   mode: "production",
   optimization: {
